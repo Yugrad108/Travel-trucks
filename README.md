@@ -1,14 +1,20 @@
-# Phonebook Web
+# TravelTrucks — Camper Rental Web App
 
-Phonebook Web allows you to create contacts for your phonebook, search for the contacts you need, and delete those you no longer want.
+TravelTrucks is a simple web application for a camper rental company. Visitors can browse the camper catalog, view detailed camper pages with reviews and photos, and submit booking requests through an easy form.
 
 ## Features:
 
-1. **Add Contacts**
+1. **Home Page: Intro, highlights, CTA to view campers.**
 
-2. **Search Contacts by Name**
+2. **Catalog: List and filter campers with basic specs and prices.**
 
-3. **Delete Contacts**
+3. **Camper Detail: Photo gallery, full description, reviews, and booking form.**
+
+4. **Reviews: Guests can leave ratings and comments.**
+   
+5. **Booking Form: Collect renter information and requested dates with validation.**
+
+6. **Admin (optional): Manage listings, bookings, and reviews.**
 
 ## Technologies:
 
