@@ -1,0 +1,21 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #5a4630;
+}
+
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: #f8f3ec;
+  color: #5a4630;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

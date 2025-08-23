@@ -1,0 +1,11 @@
+.authContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.active {
+  color: red;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
