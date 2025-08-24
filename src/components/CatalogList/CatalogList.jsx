@@ -20,7 +20,6 @@ const CatalogList = () => {
   const loading = useSelector(selectLoading);
   const error = useSelector(selectError);
   const dispatch = useDispatch();
-  console.log(loading);
   const loadMore = () => {
     dispatch(activateLoader(true));
     setTimeout(() => {

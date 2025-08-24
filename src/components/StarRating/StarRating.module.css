@@ -1,10 +1,10 @@
-.yellow {
+.filled {
   width: 16px;
   height: 16px;
   fill: #ffc531;
 }
 
-.grey {
+.empty {
   width: 16px;
   height: 16px;
   fill: #f2f4f7;

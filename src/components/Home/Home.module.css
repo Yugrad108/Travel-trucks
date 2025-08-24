@@ -1,5 +1,5 @@
 .wrapper {
-  background-image: url("/public/images/home-bg-1x.png");
+  background-image: url("/images/home-bg-1x.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,7 +16,6 @@
 .box {
   position: absolute;
   top: 300px;
-  /* left: 64px; */
 }
 
 .title {

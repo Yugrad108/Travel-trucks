@@ -24,7 +24,6 @@ const Category = ({ truckInfo }) => {
     { key: "transmission", text: transmission, iconId: "#icon-diagram" },
     { key: "engine", text: engine, iconId: "#icon-petrol" },
 
-    // формы кузова
     {
       key: "form-alcove",
       text: "Alcove",
@@ -50,7 +49,6 @@ const Category = ({ truckInfo }) => {
       condition: form === "panelTruck",
     },
 
-    // булевые и другие признаки
     { key: "AC", text: "AC", iconId: "#icon-wind", condition: AC },
     {
       key: "kitchen",
