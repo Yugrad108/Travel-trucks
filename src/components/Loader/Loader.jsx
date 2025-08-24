@@ -1,18 +1,26 @@
 import RingLoader from "react-spinners/RingLoader";
 
-const override = {
-  display: "block",
-  margin: "0 auto",
+const styles = {
+  loaderWrapper: {
+    position: "relative",
+  },
+  loaderCenter: {
+    position: "absolute",
+    top: "50%",
+    left: "45%",
+    height: "500px",
+    transform: "translate(50%, 70%)",
+  },
 };
 
 const Loader = ({ loading }) => {
   return (
-    <div>
+    <div style={styles.loaderWrapper}>
       <RingLoader
-        color="#5a4630"
+        color="#D84343"
         loading={loading}
-        cssOverride={override}
-        size={40}
+        cssOverride={styles.loaderCenter}
+        size={80}
         aria-label="Loading Spinner"
         data-testid="loader"
       />

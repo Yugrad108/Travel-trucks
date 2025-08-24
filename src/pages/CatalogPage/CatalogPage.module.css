@@ -1,0 +1,11 @@
+.catalog {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 120px 64px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}

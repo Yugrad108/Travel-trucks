@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalogList {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  list-style: none;
+}
+
+.catalogListItem {
+  border: 1px solid #dadde1;
+  border-radius: 20px;
+  padding: 24px;
+  width: 888px;
+  background-color: #ffffff;
+  display: flex;
+  gap: 24px;
+}
+
+.loadMore {
+  border: 1px solid #dadde1;
+  border-radius: 200px;
+  padding: 16px 32px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #101828;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 49px 371px 0px 371px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.loadMore:hover {
+  border: 1px solid #d84343;
+}
